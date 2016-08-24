@@ -67,7 +67,7 @@ resources:
           soft: 5
         - name: cpu
           hard: 10
-          soft: 5
+         # soft: 5
           
      # links:
       #  - "box-sn-1"
@@ -123,13 +123,13 @@ resources:
         labeltwo: valueTwo
 
   - name: vr-params1
-    type: params11
+    type: params
     version:
       params:
         DB_HOST: "ds015700.mlab.com"
-        DB_NAME: "ayeaye"
-        DB_PORT: "15700"
-        DB_USERNAME: "aye0aye"
+        DB_NAME: "test1"
+        DB_PORT: "150"
+        DB_USERNAME: "aye0aye111"
         DB_PASSWORD: "aye0aye"
         ENVIRONMENT: "test-aws"
         
