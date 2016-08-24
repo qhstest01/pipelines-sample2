@@ -64,9 +64,6 @@ resources:
           - "/host/path.2:/container/path:rw"
           - "/host/path:/container/path2:rw"
       ulimits:
-        - name: cpu
-          
-          
         - name: core
           hard: 10
          # soft: 5
