@@ -160,6 +160,18 @@ resources:
         secure: PmpEUWgodJCoNvu3A6s3U54fpZslbhptUW7iGt2ERPmNFj4ue6TBD2bPJiywZwnD97dHc76thNv+fsQshlgKxY4I5NItfg6yhrYo9o++PGqLSrLb1Vfty8+u6CpS1SeMS6kL8NLbAv4e5tjpSUQnMAG0He2FK+0Uw10fBT6Cu7O7UZQ2Th5UKv8IHIvzBr3K/ygZM4DV7JzFKmlEMLhMz5R3tDX5+KSHWuc/FVgpTQGBWQ6jEqwMekRmFMuNflD57Nkuk15IPdgOhOXn5P2/bPhTT63dMem8iQdPj7uur8sjulcaNkjBfZNcaOh1b06+lW43DcBrrFmJORxu6anOew==
        
         
+  - name: vr-params2
+    type: params
+    version:
+      params:
+        test: 
+           - "test.mlab.com"
+           - "aaa"
+        NAME1: "testr34"
+        PORT1: "56"
+       # secure: Yw6IjK3SDbrMyZ/gfuoeIm5K1YueHCO06QZhqaiGsMI/5teA1QzhSHAHgagUDVUjs3TxlFqghobNwaktyby2XoUKw0//C/lwQyU/LkeaDdjMqX3uMpFrBYqRM5fg+WGlSyV+21A4Wwp1Zetx09KGKfhsIe7xuhZH9VHEWJ9KXbQdwt2VGfNcIOf7CC/aVk0EYHsXZbIMFcV2afz48qVKVyZKFZmbB14sS631SRhRg5j/cGls7lNs6BqrVeYv9n+GFDm4NVLrnecJ84mh7r8KKsVwt84yb3Mxhmv0aUdtUiaa872EvknzxLeq9ILn0FdOTYLuSH4iCO0aTamHGBJTHw==
+       # secure: PmpEUWgodJCoNvu3A6s3U54fpZslbhptUW7iGt2ERPmNFj4ue6TBD2bPJiywZwnD97dHc76thNv+fsQshlgKxY4I5NItfg6yhrYo9o++PGqLSrLb1Vfty8+u6CpS1SeMS6kL8NLbAv4e5tjpSUQnMAG0He2FK+0Uw10fBT6Cu7O7UZQ2Th5UKv8IHIvzBr3K/ygZM4DV7JzFKmlEMLhMz5R3tDX5+KSHWuc/FVgpTQGBWQ6jEqwMekRmFMuNflD57Nkuk15IPdgOhOXn5P2/bPhTT63dMem8iQdPj7uur8sjulcaNkjBfZNcaOh1b06+lW43DcBrrFmJORxu6anOew==
+       
   - name: vr-aws-cluster2
     type: cluster
     integration: aws-deploy
