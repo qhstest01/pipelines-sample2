@@ -29,12 +29,14 @@ resources:
     version:
       memory:  60
       cpuShares: 16
+      portMappings:
+        - "60:60"
       
       user: 
          - "driftking1"
       workingDir: 
          - "/makemeworking1"
-      publishAllPorts: true
+      
       cmd:
           - "node"
           - "job.js"
