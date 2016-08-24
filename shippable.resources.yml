@@ -123,7 +123,7 @@ resources:
         labeltwo: valueTwo
 
   - name: vr-params1
-    type: params
+    type: params11
     version:
       params:
         DB_HOST: "ds015700.mlab.com"
