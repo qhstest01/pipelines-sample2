@@ -27,11 +27,7 @@ resources:
   - name: vr-ecs-opts1
     type: dockerOptions
     version:
-      memory: 
-          - 60
-
-         
-      
+      memory:  60
       cpuShares: 16
       
       user: 
@@ -48,7 +44,7 @@ resources:
           - "127.8.0.1"
       logConfig:
         type: 
-          - "json-file@#$E4"
+          - "json-file"
         options:
           max-size: 80m
       privileged: false
