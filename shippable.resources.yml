@@ -30,7 +30,7 @@ resources:
       memory:  60
       cpuShares: 16
       portMappings: 
-         - "50:510"
+         -  50:10
        
       
       user:  "driftking1"
@@ -63,7 +63,7 @@ resources:
           - "/host/path:/container/path2:rw"
       ulimits:
         - name: core
-         # hard: 10
+          hard: 10
           soft: 5
         - name: cpu
           hard: 10
