@@ -1,0 +1,111 @@
+resources:
+  - name: vr-img1
+    type: image
+    integration: ship-dock12
+    pointer:
+      sourceName: "library/nginx"
+    seed:
+      versionName: latest
+      
+  - name: vr-img2
+    type: image
+    integration: ship-dock12
+    pointer:
+      sourceName: "shiphitchcock2test/docker-node-test"
+    seed:
+      versionName: qhstest
+      
+  - name: vr-img3
+    type: image
+    integration: ship-dock12
+    pointer:
+      sourceName: "shippabledocker/pipelinev2"
+    seed:
+      versionName: "deploytest1"
+      
+      
+  - name: vr-ecs-opts1
+    type: dockerOptions
+    version:
+      memory: 50
+         
+      
+      cpuShares: 16
+      
+      user: 
+         - "driftking1"
+      workingDir: 
+         - "/makemeworking1"
+      publishAllPorts: true
+      cmd:
+          - "node"
+          - "job.js"
+      dnsServers:
+          - "127.0.8.1"
+      dnsSearch:
+          - "127.8.0.1"
+      logConfig:
+        type: 
+          - "json-file"
+        options:
+          max-size: 80m
+      privileged: false
+      labels:
+        labelone: 
+          - valueOne
+        labeltwo: valueTwo
+      entryPoint:
+          - '/bin/sh'
+          - './entrypoint2.sh'
+      
+      volumes:
+          - "s1"
+          - "s2"
+          
+    
+
+      
+      
+  - name: vr-dv-opts2
+    type: dockerOptions
+    version:
+      
+      
+      portMappings:
+        - "60:30"
+      user: 
+        - "driftking"
+      workingDir: 
+        - "/makemeworking"
+      publishAllPorts: true
+      cmd:
+          - "node"
+          - "job.js"
+      dnsServers:
+          - "127.0.8.1"
+      dnsSearch:
+          - "127.8.0.1"
+      logConfig:
+        type: 
+           - "json-file"
+        options:
+          max-size: 50m
+      privileged: false
+      links:
+         - 
+      labels:
+        labelone: valueOne
+        labeltwo: valueTwo
+        
+  - name: vr-aws-cluster2
+    type: cluster
+    integration: aws-deploy
+    pointer:
+      sourceName : "testCL" #name of the cluster we are deploying
+      region: "us-west-2"
+      
+  - name: vr-ddc-cluster
+    type: cluster
+    integration: ddc-deploy
+    pointer:
+       sourceName : "default" 
