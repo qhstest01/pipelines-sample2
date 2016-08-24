@@ -129,13 +129,13 @@ resources:
   - name: vr-params1
     type: params1
     version:
-      #params:
-    DB_HOST: "ds015700.mlab.com"
-    DB_NAME: "test1"
-    DB_PORT: "150"
-    DB_USERNAME: "aye0aye111"
-    DB_PASSWORD: "aye0aye"
-    ENVIRONMENT: "test-aws"
+      params:
+        DB_HOST: "ds015700.mlab.com"
+        DB_NAME: "test1"
+        DB_PORT: "150"
+        DB_USERNAME: "aye0aye111"
+        DB_PASSWORD: "aye0aye"
+        ENVIRONMENT: "test-aws"
         
   - name: vr-aws-cluster2
     type: cluster
