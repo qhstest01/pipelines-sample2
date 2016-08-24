@@ -63,8 +63,8 @@ resources:
           - "/host/path:/container/path2:rw"
       ulimits:
         - name: cpu
-          hard: hardLimit
-          soft: softLimit
+          hard: "hardLimit"
+          soft: "softLimit"
         - name: core
           hard: 10
           soft: 5
