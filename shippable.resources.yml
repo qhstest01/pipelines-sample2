@@ -31,6 +31,7 @@ resources:
       cpuShares: 16
       portMappings:
         - "60:60"
+        - "50:50"
       
       user: 
          - "driftking1"
