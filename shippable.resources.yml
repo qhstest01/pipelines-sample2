@@ -28,7 +28,8 @@ resources:
     type: dockerOptions
     version:
       memory: 
-          - 50
+          - 60
+
          
       
       cpuShares: 16
@@ -47,7 +48,7 @@ resources:
           - "127.8.0.1"
       logConfig:
         type: 
-          - "json-file"
+          - "json-file@#$E4"
         options:
           max-size: 80m
       privileged: false
