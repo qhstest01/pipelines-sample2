@@ -56,9 +56,8 @@ resources:
         labelone: 
           - valueOne
         labeltwo: valueTwo
-      entryPoint:
-          - '/bin/sh'
-          - './entrypoint2.sh'
+      entryPoint:  '/bin/sh'
+  #        - './entrypoint2.sh'
       volumes: 
           - "/host/path.2:/container/path:rw"
           - "/host/path:/container/path2:rw"
