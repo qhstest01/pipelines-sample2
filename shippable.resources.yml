@@ -69,9 +69,9 @@ resources:
           hard: 10
           soft: 5
      # links:
-      #  - "pipelines-sample-invalid-img1"
-    #  volumesFrom:
-     #   - "pipelines-sample-invalid-img1:ro"
+      #  - "box-sn-1"
+      volumesFrom:
+        - "box-sn-1:ro"
           
   - name: vr-dopts4
     type: dockerOptions
