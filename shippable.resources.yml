@@ -137,7 +137,7 @@ resources:
         DB_PASSWORD: "aye0aye"
         ENVIRONMENT: "test-aws"
         
-   -name: vr-params2
+  - name: vr-params2
     type: params
     versions:
       params:
