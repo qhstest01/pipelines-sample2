@@ -141,9 +141,10 @@ resources:
     type: params
     version:
       params:
-        DB_HOST: "test.mlab.com"
-        DB_NAME: "testr34"
-        DB_PORT: "56"
+        HOST: 
+           - "test.mlab.com"
+        NAME: "testr34"
+        PORT: "56"
        
         
   - name: vr-aws-cluster2
