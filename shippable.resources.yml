@@ -77,7 +77,7 @@ resources:
   - name: vr-replica1
     type: replicas
     version:
-      count: 4
+      count: 2
 
           
   - name: vr-dopts4
