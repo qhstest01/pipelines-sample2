@@ -30,7 +30,7 @@ resources:
       memory:  60
       cpuShares: 16
       portMappings: 
-         - "60:60"
+         - "50:510"
        
       
       user: 
@@ -47,7 +47,7 @@ resources:
           - "127.8.0.1"
       logConfig:
         type: 
-          - "json-file"
+          - "json-file111"
         options:
           max-size: 80m
       privileged: true
