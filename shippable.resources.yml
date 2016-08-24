@@ -69,9 +69,9 @@ resources:
           hard: 10
           soft: 5
       links:
-        - "plv2-image2"
+        - "vr-img1"
       volumesFrom:
-        - "plv2-image2:ro"
+        - "vr-img1:ro"
           
   - name: vr-dopts4
     type: dockerOptions
