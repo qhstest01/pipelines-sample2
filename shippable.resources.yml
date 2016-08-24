@@ -128,7 +128,7 @@ resources:
 
   - name: vr-params1
     type: params
-    versions:
+    version:
       params:
         DB_HOST: "ds015700.mlab.com"
         DB_NAME: "test1"
@@ -139,7 +139,7 @@ resources:
         
   - name: vr-params2
     type: params
-    versions:
+    version:
       params:
         DB_HOST: "test.mlab.com"
         DB_NAME: "testr34"
