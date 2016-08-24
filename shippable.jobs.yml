@@ -29,6 +29,7 @@ jobs:
     steps:
      
       - IN: job-vr1
+      - IN: vr-ecs-opts1
       - IN: vr-aws-cluster2
       - TASK: managed
         deployMethod: upgrade
