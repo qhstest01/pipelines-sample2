@@ -31,7 +31,7 @@ jobs:
       - IN: job-vr1
       - IN: vr-ecs-opts1
       - IN: vr-dopts4
-      - IN: vr-dopts5
+     # - IN: vr-dopts5
       - IN: vr-aws-cluster2
       - TASK: managed
         deployMethod: upgrade
