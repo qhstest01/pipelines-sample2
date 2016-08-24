@@ -74,7 +74,7 @@ resources:
      # volumesFrom:
       #  - "box-sn-1:ro"
       
-    - name: vr-replica1
+  - name: vr-replica1
       type: replicas
       version:
       count: 2
@@ -100,8 +100,6 @@ resources:
   - name: vr-dv-opts2
     type: dockerOptions
     version:
-      
-      
       portMappings:
         - "60:30"
       user: 
