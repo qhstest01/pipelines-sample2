@@ -7,6 +7,7 @@ resources:
     seed:
       versionName: latest
       
+  
   - name: vr-img2
     type: image
     integration: ship-dock12
@@ -22,6 +23,14 @@ resources:
       sourceName: "shippabledocker/pipelinev2"
     seed:
       versionName: "deploytest1"
+      
+  - name: vr-img4
+    type: image
+    integration: ship-dock12
+    pointer:
+      sourceName: "test111"
+    seed:
+      versionName: latest
       
       
   - name: vr-ecs-opts1
