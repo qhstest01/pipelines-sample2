@@ -67,7 +67,7 @@ resources:
           
         - name: core
           hard: 10
-          soft: 5
+         # soft: 5
      # links:
       #  - "box-sn-1"
      # volumesFrom:
