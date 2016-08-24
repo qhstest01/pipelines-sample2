@@ -63,11 +63,11 @@ resources:
           - "/host/path:/container/path2:rw"
       ulimits:
         - name: core
-          hard: 10
-          soft: 5
+          hard: 19
+         # soft: 5
         - name: cpu
           hard: 10
-         # soft: 5
+          soft: 5
           
      # links:
       #  - "box-sn-1"
