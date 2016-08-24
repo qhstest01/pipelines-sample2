@@ -73,7 +73,7 @@ resources:
     type: dockerOptions
     version:
       volumesFrom:
-          - "plv2-manifest5entrypointdopt_0_0_03c3505a-a99b-46a9-8fd6-7f4d2516abb5"
+         # - "plv2-manifest5entrypointdopt_0_0_03c3505a-a99b-46a9-8fd6-7f4d2516abb5"
           - "basedataContainer:ro" 
 
       
