@@ -3,7 +3,7 @@ resources:
     type: image
     integration: ship-dock12
     pointer:
-      sourceName: "library/nginx"
+     # sourceName: "library/nginx"
     seed:
       versionName: latest
       
@@ -127,7 +127,7 @@ resources:
         labeltwo: valueTwo
 
   - name: vr-params1
-    type: params1
+    type: params
     version:
       params:
         DB_HOST: "ds015700.mlab.com"
