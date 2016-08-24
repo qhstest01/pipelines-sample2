@@ -69,8 +69,8 @@ resources:
           hard: 10
           soft: 5
           
-      links:
-        - "box-nginx-1"
+      #links:
+       # - "box-nginx-1"
      # volumesFrom:
       #  - "box-sn-1:ro"
       
