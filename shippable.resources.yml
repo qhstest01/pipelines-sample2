@@ -35,8 +35,10 @@ resources:
       
       user: 
          - "driftking1"
+         - "user2"
       workingDir: 
          - "/makemeworking1"
+        
       
       cmd:
           - "node"
