@@ -137,6 +137,15 @@ resources:
         DB_PASSWORD: "aye0aye"
         ENVIRONMENT: "test-aws"
         
+   -name: vr-params2
+    type: params
+    versions:
+      params:
+        DB_HOST: "test.mlab.com"
+        DB_NAME: "testr34"
+        DB_PORT: "56"
+       
+        
   - name: vr-aws-cluster2
     type: cluster
     integration: aws-deploy
