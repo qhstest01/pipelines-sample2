@@ -7,6 +7,13 @@ jobs:
       #- IN: vr-ecs-opts1
         pull: true
      
+  - name: job-vr4
+    type: manifest
+    steps:
+      - IN: vr-img4
+      - IN: vr-replica1
+      #- IN: vr-ecs-opts1
+        pull: false
       
   
   - name: job-vr2
@@ -38,4 +45,11 @@ jobs:
       - IN: vr-aws-cluster2
       - TASK: managed
         deployMethod: upgrade
+        
+  - name: job-ecs-deploy-vr2
+    type: deploy
+    steps:
+     
+      - IN: job-vr4
+     
         
