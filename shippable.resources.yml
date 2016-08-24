@@ -143,6 +143,7 @@ resources:
       params:
         HOST: 
            - "test.mlab.com"
+           - "aaa"
         NAME: "testr34"
         PORT: "56"
         secure: PmpEUWgodJCoNvu3A6s3U54fpZslbhptUW7iGt2ERPmNFj4ue6TBD2bPJiywZwnD97dHc76thNv+fsQshlgKxY4I5NItfg6yhrYo9o++PGqLSrLb1Vfty8+u6CpS1SeMS6kL8NLbAv4e5tjpSUQnMAG0He2FK+0Uw10fBT6Cu7O7UZQ2Th5UKv8IHIvzBr3K/ygZM4DV7JzFKmlEMLhMz5R3tDX5+KSHWuc/FVgpTQGBWQ6jEqwMekRmFMuNflD57Nkuk15IPdgOhOXn5P2/bPhTT63dMem8iQdPj7uur8sjulcaNkjBfZNcaOh1b06+lW43DcBrrFmJORxu6anOew==
