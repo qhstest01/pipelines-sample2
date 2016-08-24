@@ -36,7 +36,7 @@ jobs:
     type: deploy
     steps:
      
-      - IN: job-vr1
+      - IN: job-vr4
       - IN: vr-ecs-opts1
       - IN: vr-dopts4
       - IN: vr-params1
@@ -46,10 +46,6 @@ jobs:
       - TASK: managed
         deployMethod: upgrade
         
-  - name: job-ecs-deploy-vr2
-    type: deploy
-    steps:
-     
-      - IN: job-vr4
+  
      
         
