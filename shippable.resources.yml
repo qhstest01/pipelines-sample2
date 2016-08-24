@@ -30,7 +30,7 @@ resources:
       memory:  60
       cpuShares: 16
       portMappings: 
-         -  50:10
+         -  50:60
        
       
       user:  "driftking1"
@@ -67,7 +67,7 @@ resources:
           soft: 5
         - name: cpu
           hard: 10
-         # soft: 5
+          soft: 5
           
      # links:
       #  - "box-sn-1"
