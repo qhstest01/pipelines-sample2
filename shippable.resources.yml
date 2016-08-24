@@ -128,8 +128,8 @@ resources:
 
   - name: vr-params1
     type: params1
-   # version:
-      params:
+    version:
+      #params:
         DB_HOST: "ds015700.mlab.com"
         DB_NAME: "test1"
         DB_PORT: "150"
