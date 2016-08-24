@@ -75,8 +75,8 @@ resources:
       #  - "box-sn-1:ro"
       
   - name: vr-replica1
-      type: replicas
-      version:
+    type: replicas
+    version:
       count: 4
 
           
