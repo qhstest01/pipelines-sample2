@@ -27,7 +27,8 @@ resources:
   - name: vr-ecs-opts1
     type: dockerOptions
     version:
-      memory: 50
+      memory: 
+          - 50
          
       
       cpuShares: 16
