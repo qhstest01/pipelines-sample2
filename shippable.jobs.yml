@@ -3,6 +3,7 @@ jobs:
     type: manifest
     steps:
       - IN: vr-img1
+      - IN: vr-replica1
       #- IN: vr-ecs-opts1
         pull: true
      
