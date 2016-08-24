@@ -34,7 +34,7 @@ jobs:
       - IN: vr-dopts4
       - IN: vr-params1
       - IN: vr-replica1
-     # - IN: vr-dopts5
+      - IN: vr-params2
       - IN: vr-aws-cluster2
       - TASK: managed
         deployMethod: upgrade
