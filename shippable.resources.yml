@@ -68,10 +68,10 @@ resources:
         - name: core
           hard: 10
           soft: 5
-      links:
-        - "pipelines-sample-invalid-img1"
-      volumesFrom:
-        - "pipelines-sample-invalid-img1:ro"
+     # links:
+      #  - "pipelines-sample-invalid-img1"
+    #  volumesFrom:
+     #   - "pipelines-sample-invalid-img1:ro"
           
   - name: vr-dopts4
     type: dockerOptions
